@@ -3,20 +3,20 @@
 ## Crea tu entorno Virtual
 
 ```bash
-  python3 -m venv env
+python3 -m venv env
 ```
 
 
 ## Activar el entorno Virtual en Windows
 
 ```bash
-  env\Scripts\activate.bat
+env\Scripts\activate.bat
 ```
 
 ## Instalar los Requisitos
 
 ```bash
-  pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Varaible de entorno .env
@@ -33,26 +33,26 @@ SQLALCHEMY_TRACK_MODIFICATIONS=False
 ## Arrancamos la App
 
 ```bash
-  flask run
+flask run
 ```
 
 
 ## Migraciones en la base de datos
 ```bash
-  flask db init
-  flask db migrate -m "Initial migration."
-  flask db upgrade
+flask db init
+flask db migrate -m "Initial migration."
+flask db upgrade
 ```
 
 ## Crear los roles
 ### Ingresar a la shell de Flask
 
 ```bash
-  flask shell
+flask shell
 ```
 ### Insertamos Roles
 ```bash
-  >> Role.insert_roles()
+>> Role.insert_roles()
 ```
 
 ## Insertar Usuario
